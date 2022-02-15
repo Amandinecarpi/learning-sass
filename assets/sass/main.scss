@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gainsboro;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 350px;
+    
+    &:hover{
+        background-color: aqua;
+    }
+}
+.container:hover img{
+    transform: scale(1.2);
+    transition: 2s;
+    
+}
+.image  {
+    position: relative;
+    
+}
+.image .s1{
+    position: absolute;
+    background-color: #e94d39;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: white;
+    top: 15px;
+    right: 75px;
+}
+.image .s2{
+    position: absolute;
+    background-color: #e94d39;
+    padding: 10px 10px;
+    color: white;
+    top: 270px;
+    right: 218px;
+}
+.p1 {
+    color: #e94d39;
+}
+.texte {
+    background-color: white;
+}
+.texte:hover {
+
+}
+.p2 {
+    display: none;
+}

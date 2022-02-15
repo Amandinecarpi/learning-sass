@@ -1,0 +1,23 @@
+{
+  "name": "learning-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./assets/sass/main.scss:./assets/sass/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amandinecarpi/learning-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amandinecarpi/learning-sass/issues"
+  },
+  "homepage": "https://github.com/Amandinecarpi/learning-sass#readme",
+  "dependencies": {
+    "sass": "^1.49.7"
+  }
+}
